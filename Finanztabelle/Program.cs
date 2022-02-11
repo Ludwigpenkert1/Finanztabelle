@@ -34,7 +34,7 @@ namespace Finanztabelle
 
             double KZinsen = 0;
             double Bilanz = 0;
-            double kn = 0;
+            double kn = Kapital;
             double Zinsen = 0;
 
             for (int i = 1; i <= Anlagedauer; i++)
